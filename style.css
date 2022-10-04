@@ -1,0 +1,43 @@
+
+*{
+    margin: 30px;
+    background-color: blanchedalmond;
+}
+
+.container {
+    align-items: center;
+}
+
+
+
+header {
+    display: flex;
+    margin-right: 200px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: aqua;
+    border: 20px solid black;
+    margin: 30 60px;
+    height: 250px;
+    position: relative;
+    width: 500px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 250px; */
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 20px;
+    border: 2px solid yellow;
+    position: absolute;
+}
